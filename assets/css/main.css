@@ -208,6 +208,10 @@ input, select, textarea {
 			padding: 0 0 1.5em 0;
 		}
 
+		header.name {
+			margin-bottom: 8em;
+		}
+
 	footer {
 		margin-top: 1em;
 	}
@@ -227,7 +231,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.container {
-				width: 960px;
+				width: 1000px;
 			}
 
 		}
@@ -1481,7 +1485,9 @@ input, select, textarea {
 	}
 
 /* Image */
-
+	#appstore, #niyon{
+		width: 100%;
+	}
 	.image {
 		display: inline-block;
 		border: 0;
@@ -1607,130 +1613,6 @@ input, select, textarea {
 			ul.actions li:first-child {
 				margin-left: 0;
 			}
-
-/* Form */
-
-	form label {
-		display: block;
-		margin: 0 0 0.5em 0;
-	}
-
-	form input[type="text"],
-	form input[type="email"],
-	form input[type="password"],
-	form select,
-	form textarea {
-		-moz-transition: background-color 0.35s ease-in-out;
-		-webkit-transition: background-color 0.35s ease-in-out;
-		-ms-transition: background-color 0.35s ease-in-out;
-		transition: background-color 0.35s ease-in-out;
-		-webkit-appearance: none;
-		display: block;
-		border: 0;
-		background: #f1f1f1;
-		width: 100%;
-		padding: 0.75em;
-	}
-
-		form input[type="text"]:focus,
-		form input[type="email"]:focus,
-		form input[type="password"]:focus,
-		form select:focus,
-		form textarea:focus {
-			background-color: #f8f8f8;
-		}
-
-	form input[type="text"],
-	form input[type="email"],
-	form input[type="password"],
-	form select {
-		line-height: 1em;
-	}
-
-	form select {
-		background-size: 1.25em;
-		background-repeat: no-repeat;
-		background-position: calc(100% - 1em) center;
-		padding-right: 1.25em;
-		text-overflow: ellipsis;
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%235a5959' /%3E%3C/svg%3E");
-	}
-
-		form select option {
-			color: #3a3939;
-			background: #ffffff;
-		}
-
-		form select:focus::-ms-value {
-			background-color: transparent;
-		}
-
-		form select::-ms-expand {
-			display: none;
-		}
-
-	form textarea {
-		min-height: 12em;
-	}
-
-	form ::-webkit-input-placeholder {
-		color: #5a5959 !important;
-	}
-
-	form :-moz-placeholder {
-		color: #5a5959 !important;
-	}
-
-	form ::-moz-placeholder {
-		color: #5a5959 !important;
-	}
-
-	form :-ms-input-placeholder {
-		color: #5a5959 !important;
-	}
-
-	form ::-moz-focus-inner {
-		border: 0;
-	}
-
-	form ul.actions {
-		margin-bottom: 0;
-		text-align: center;
-	}
-
-/* Table */
-
-	.table-wrapper {
-		width: 100%;
-		overflow-x: auto;
-		-webkit-overflow-scrolling: touch;
-	}
-
-	table {
-		width: 100%;
-	}
-
-		table tbody tr {
-			border-top: solid 1px #eae9e9;
-		}
-
-			table tbody tr:first-child {
-				border-top: 0;
-			}
-
-		table td {
-			padding: 0.75em 1.25em 0.75em 1.25em;
-		}
-
-		table th {
-			text-align: left;
-			font-weight: 400;
-			padding: 0.75em 1.25em 0.75em 1.25em;
-		}
-
-		table thead {
-			background: #f5f5f5;
-		}
 
 /* Button */
 
