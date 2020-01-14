@@ -1971,7 +1971,7 @@ input, select, textarea {
 	}
 
 		#banner .button {
-			color: #35b882;
+			color: #dd5018;
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
@@ -2029,7 +2029,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #35b88f;
+				color: #7a7777;
 				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
 				border-bottom-color: rgba(53, 184, 143, 0.5);
 			}
@@ -2226,12 +2226,6 @@ input, select, textarea {
 		/* Basic */
 
 			body {
-				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
-				background-repeat: repeat, no-repeat;
-				background-size: auto, 100% auto;
-				background-position: top left, top center;
-				background-attachment: scroll, scroll;
 				font-size: 14pt;
 			}
 
