@@ -1629,7 +1629,7 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
+		background: #dd5018;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -1646,7 +1646,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #45c89f;
+			background: #dd5018;
 		}
 
 		input[type="button"].style2,
@@ -1654,7 +1654,7 @@ input, select, textarea {
 		input[type="reset"].style2,
 		button.style2,
 		.button.style2 {
-			color: #3a3939;
+			color: #dd5018;
 			background: #fff;
 			box-shadow: inset 0 0 0 1px #fff;
 		}
@@ -1675,7 +1675,7 @@ input, select, textarea {
 		button.style3,
 		.button.style3 {
 			background: none;
-			color: #3a3939;
+			color: #dd5018;
 			box-shadow: inset 0 0 0 1px #dad9d9;
 		}
 
@@ -1824,33 +1824,26 @@ input, select, textarea {
 					padding: 20px;
 				}
 
-		.box.style3 {
-			background: #fff;
-			padding: 3em;
-		}
-
-			.box.style3 header {
-				text-align: center;
-			}
-
 /* Icons */
 
 	.icon {
 		text-decoration: none;
-		text-decoration: none;
+		
 	}
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
+			text-decoration: none;
+			font-size: 1.25em;
 			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
+			font-weight: normal;
 		}
 
 		.icon:before {
@@ -1971,10 +1964,10 @@ input, select, textarea {
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		background: #dd5018 url("images/banner.svg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
-		background-size: 125% auto;
+		background-size: 175% auto;
 	}
 
 		#banner .button {
