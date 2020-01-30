@@ -121,7 +121,7 @@ input, select, textarea {
 		line-height: 1.75em;
 		font-weight: 300;
 		letter-spacing: 1px;
-		color: #da764f;
+		color: #ffa700;
 		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
 		-webkit-text-stroke: 0.25px;
 	}
@@ -160,7 +160,7 @@ input, select, textarea {
 		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		color: #dd5018;
+		color: #ffa700;
 		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
 		text-decoration: none;
 		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
@@ -1629,7 +1629,7 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #dd5018;
+		background: #ffa700;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -1646,7 +1646,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #dd5018;
+			background: #ffa700;
 		}
 
 		input[type="button"].style2,
@@ -1654,7 +1654,7 @@ input, select, textarea {
 		input[type="reset"].style2,
 		button.style2,
 		.button.style2 {
-			color: #dd5018;
+			color: #ffa700;
 			background: #fff;
 			box-shadow: inset 0 0 0 1px #fff;
 		}
@@ -1675,7 +1675,7 @@ input, select, textarea {
 		button.style3,
 		.button.style3 {
 			background: none;
-			color: #dd5018;
+			color: #ffa700;
 			box-shadow: inset 0 0 0 1px #dad9d9;
 		}
 
@@ -1964,14 +1964,14 @@ input, select, textarea {
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #dd5018 url("images/banner.svg") bottom center no-repeat;
+		background: #ffa700 url("images/banner.svg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 175% auto;
 	}
 
 		#banner .button {
-			color: #dd5018;
+			color: #ffa700;
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
@@ -2023,7 +2023,7 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: #dd5018;
+			color: #ffa700;
 			text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
