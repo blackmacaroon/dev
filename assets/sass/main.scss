@@ -106,7 +106,7 @@
 		}
 
 	body {
-		background-color: #183026;
+		background-color: #535353;
 		background-image: url('images/overlay.png'), url('../../images/bg.jpg');
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -176,17 +176,17 @@
 		font-style: italic;
 	}
 
-	a {
-		@include vendor('transition', ('border-color 0.35s ease-in-out', 'color 0.35s ease-in-out'));
-		color: #35b88f;
-		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
-		text-decoration: none;
-		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
+	// a {
+	// 	@include vendor('transition', ('border-color 0.35s ease-in-out', 'color 0.35s ease-in-out'));
+	// 	color: #35b88f;
+	// 	text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
+	// 	text-decoration: none;
+	// 	border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
 
-		&:hover {
-			border-bottom-color: rgba(53, 184, 143, 0);
-		}
-	}
+	// 	&:hover {
+	// 		border-bottom-color: rgba(53, 184, 143, 0);
+	// 	}
+	// }
 
 	sub {
 		position: relative;
