@@ -224,13 +224,13 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 1140px;
+		width: 1440px;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			.container {
-				width: 1000px;
+				width: 85%;
 			}
 
 		}
@@ -1722,7 +1722,7 @@ input, select, textarea {
 		}
 
 		.box.style1 {
-			background: #fff;
+			background: #f2f2f2;
 			padding: 3em;
 		}
 
@@ -1732,7 +1732,7 @@ input, select, textarea {
 				top: 0;
 				width: 50%;
 				height: 100%;
-				background: #152E33;
+				background: #535353;
 				overflow: hidden;
 			}
 
