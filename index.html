@@ -1,13 +1,19 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>portfolio - kayla crow</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="shortcut icon" href=favicon.ico" type="image/icon"> 
+		<link rel="icon" href="favicon.ico" type="image/icon">
+		<title>portfolio - kayla crow</title>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="shortcut icon" href=%PUBLIC_URL%/favicon.ico" type="image/icon"> 
-		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" type="image/icon">
+		
 	</head>
 	<body class="is-preload">
 
@@ -88,12 +94,14 @@
 			<section id="banner">
 				<div class="aboutmebox">
 					<h3 class="aboutme selftitle">she is</h3>
-					<div class= "aboutme selftext">
-						<p>a hippie hipster millenial boomer</p>
-						<p>good enough for government work</p>
-						<p>made of mush and strings</p>
-						<p>always hungry</p>
-						<p>funny</p>
+					<div class= "carousel vertical slide aboutme selftext" data-ride="carousel" data-interval="4000">
+						<div class="carousel-inner vertical">
+							<div class="carousel-item item active"> <p>a hippie hipster millenial boomer</p></div>
+							<div class="carousel-item item"> <p>good enough for government work</p></div>
+							<div class="carousel-item item"> <p>made of mush and strings</p></div>
+							<div class="carousel-item item"> <p>always hungry</p></div>
+							<div class="carousel-item item"> <p>stronger than she looks</p></div>
+						</div>
 					</div>
 				</div>
 					
@@ -111,7 +119,7 @@
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
-			<!-- <script src="assets/js/util.js"></script> -->
+			<script src="assets/js/verticalcarousel.js"></script>
 			<script src="assets/js/main.js"></script>
 
 	</body>
