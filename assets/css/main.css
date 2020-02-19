@@ -1676,8 +1676,8 @@ ol li {
 
 .vertical .carousel-item-prev,
 .vertical .active.carousel-item-left {
-    -webkit-transform: translate3d(0,75%, 0);
-        transform: translate3d(0,75%, 0);
+    -webkit-transform: translate3d(0, 75%, 0);
+        transform: translate3d(0, 75%, 0);
 }
 
 /* Icons */
@@ -1922,7 +1922,7 @@ button.style3:hover,
 
 .box.style2 .inner {
   position: relative;
-  padding: 40px 0 0px 0;
+  padding: 40px 0 0 0;
 }
 
 .box.style2 .inner:after {
