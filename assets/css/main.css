@@ -1649,7 +1649,16 @@ ol li {
   padding-left: 1.25em;
   margin-top: 1.5em;
 }
+
+/* Contact */
+
+.contact:hover {
+	text-decoration: none;
+	color: #f2f2f2;
+}
+
 /* Carousel */
+
 .carousel .vertical {
   height: 100%;
 }
