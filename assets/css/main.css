@@ -1584,6 +1584,12 @@ article:last-child {
 }
 
 /* Image */
+
+.mememe {
+  max-height: 200px;
+  border-radius: 50%;
+} 
+
 #appstore,
 #niyon {
   width: 100%;
