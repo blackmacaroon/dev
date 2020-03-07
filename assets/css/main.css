@@ -174,7 +174,6 @@ html {
 
 body {
   background-color: #535353;
-  /* background-image: url("images/overlay.png"), url("../../images/back.jpg"); */
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
   background-position: top left, center 0;
